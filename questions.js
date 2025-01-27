@@ -376,8 +376,70 @@
 //     }   
 // }
 // console.log(longest)
-//prime number 
+//prime number
+
+
+// let arr =[1,2,3,4,5,6]
+// let sum =7
+// let returnarr=[]
+// for(let i=0;i<=5;i++){
+//     if(arr[0]+arr[i]==sum){
+//         returnarr =arr[0] +","+ arr[i]
+
+//     }
+    
+// }
+// console.log(returnarr)
 
 
 
 
+//reverse a number 
+
+// let num= 987
+// let answer=0 ;
+
+//     while(num != 0){
+//     //extracting the last digit
+//     let digit = num%10;             //9
+//     //removing the last digit from original number
+//     num = parseInt(num/10)           //9856;
+//     //adding the digit to the answer
+//     answer = answer*10 + digit
+// }
+
+// console.log(answer)
+
+
+class Human{
+    //properties
+    age=123;
+    #wt=80;
+
+    constructor(newAge, newHeight){
+        this.newAge=newAge;
+        this.newHeight=newHeight
+
+    }
+    //behaviour
+
+    walking(){
+        console.log("i am walking ", this.#wt)
+
+    }
+    running(){
+        console.log("i am running")
+    }
+    get fetchweight(){
+        return this.#wt
+    }
+    set modifyweight(val){
+        this.#wt=val;
+
+    }
+}
+
+let obj=new Human(22, 173)
+console.log(obj.newAge)
+
+obj.walking()

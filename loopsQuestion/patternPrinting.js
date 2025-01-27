@@ -15,16 +15,16 @@
 
 // }
 
-let i=1
-while(i<=5){
-    let j=0
-    while(j<i){
-        console.log("*")
-        j++
+// let i=1
+// while(i<=5){
+//     let j=0
+//     while(j<i){
+//         console.log("*")
+//         j++
 
 
-    }
-    i++
-    console.log("New line")
+//     }
+//     i++
+//     console.log("New line")
 
-}
+// }
