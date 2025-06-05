@@ -47,9 +47,40 @@
 
 # Descision Table 
 - Deision Table is also called as Cause-Effect Table.
--   
+- this technique  will be used if we have more condtions and corresponding actions
+- we deal with combination of inputs
 
 
+
+# Decision Table Example
+• Take an example of transferring money online to an account which is already added and
+approved.
+1. Here the conditions to transfer money are
+    - Account already approved
+    - OTP (one time password) matched
+    - Sufficient money in the account
+
+ 2. And the actions performed are
+    - Transfer money
+    - Show a message as insufficient amount
+    - Block the transaction incase of suspicious transaction
+
+
+# State Transition
+- in this changes in input condition change the state of the application
+- the tesvhnique allow the tester to test the behavior of an UAT
+- the tester can perform this action by entering various input conditions in a sequence 
+
+
+#  Error Guessing 
+- it is one of the testing techniques used to find bugs in a software application based on tester's prior experience 
+- a software testing technique where tester use their knowledge, intution and past experience to anticipate potetenial error or defects in the application.
+- we don't follow any specific rules
+- it depends on Tester Analytical Skills and experience 
+
+ **Some of the examples are:**
+- Submitting a form without entering values.
+- Entering invalid values such as entering alphabets in the numeric field.
 
 
 
