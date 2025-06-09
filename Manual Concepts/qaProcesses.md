@@ -157,3 +157,38 @@ cases prepared.
 # Defects/ Bugs 
 - any mismatched functionality found in a application is called as Defect/Bug/Issue.
 - During Test Execution test engineers are reporting mismatched as defects to developers through templates or using tools
+
+# Defect Categorization
+- Severity - Blocker, critical , Major, Minor
+- Priority - P1, P2, P3
+
+- Severity is the seriousness of the defect and how much impact on the busiess workflow
+
+# BUG Life Cycle 
+> New --> open --> Resolved --> Re- testing --> Closed
+
+# Test Metrics
+- No. Of Requirements
+- Avg. No. of Test Cases written Per Requirement
+- Total No.of Test Cases written for all Requirement
+- Total No. Of test cases Executed
+- No.of Test Cases Passed
+- No.of Test Cases Failed
+- No.of Test cases Blocked
+- No. Of Test Cases Un Executed
+- Total No. Of Defects Identified
+- Critical Defects Count
+- Higher Defects Count
+- Medium Defects Count
+- Low Defects Count
+- Customer Defects
+- No.of defects found in UAT
+
+# Princple in Sodtware Testing
+- Start Software testing at early stages, Means From the beginning when you get the requirements. 
+- Test the Software in order to find the defects
+- Highly impossible to give a free software to the customer.
+- Should not to do Exhaustive Testing. Means we should not use the same Type of data For testing every time.
+- Testing is context based  Means Decide What types of testing should be conducted based on type of application
+- We should follow the concept of Pesticide Paradox. Means if you are executing same cases for longer run, they won't find any defects. we have to keep update test cases in every cycle/realease in order to find more defects.
+- We should follow defect clustering. Means some of the modules contains most of the defects. We can identify such risky modules 80% of the problems are found in 20% of the modules.
