@@ -87,18 +87,32 @@ mobile web apps, API — Javascript, Typescript, Java, Python & .Net(C#)
 - **page.getByTestId()** to locate an element based on its data-testid attribute (other attributes can be configured).
 
 > **[builtInloctors](https://playwright.dev/docs/locators)**
-## **Go Through playwright documentatiob for the above methods** 
+## **Go Through playwright documentation for the above methods** 
 
 
 # Record Test in Code Gen
--  `npx playeright codegen` is used to automatically record test and get scripts generated.
+-  `npx playwright codegen` is used to automatically record test and get scripts generated.
 - `npx playwright codegen --help` can 
 > **[codegen](https://playwright.dev/docs/codegen#running-codegen)**
-## **Go Through playwright documentatiob for the above methods** 
+## **Go Through playwright documentation for the above methods** 
 
 
 # Assertions
 - playwright  includes Test assertions in the form of expect finction. 
 
 > [Assertions](https://playwright.dev/docs/test-assertions)
-## **Go Through playwright documentatiob for the above methods** 
+## **Go Through playwright documentation for the above methods** 
+
+# Hard Assertions and Soft Assertions
+
+- if hard assertion fails the entire code get terminated
+- if soft assertion fails it do not termianted test execution
+
+> [Soft and hard Assertions](https://playwright.dev/docs/test-assertions)
+## **Go Through playwright documentation for the above methods** 
+
+
+# Dialogs box
+
+> [Dialogs](https://playwright.dev/docs/dialogs)
+## **Go Through playwright documentation for the above methods**
